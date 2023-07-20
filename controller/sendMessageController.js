@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 
-const sendMessage = (req, res) => {
+const sendMessage = async (req, res) => {
   const { fullName, email, mobileNumber, subject, message } = req.body.data;
 
   const transporter = nodemailer.createTransport({

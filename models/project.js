@@ -8,4 +8,4 @@ const ProjectSchema = mongoose.Schema({
   github: { type: String, required: true },
 });
 
-module.exports = Project = mongoose.model("project", ProjectSchema);
+module.exports = Project = mongoose.model("projects", ProjectSchema);

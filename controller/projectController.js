@@ -1,5 +1,5 @@
-const getProjects = (req, res) => {
-  Project.find({}).then((response) => {
+const getProjects = async (req, res) => {
+  await Project.find({}).then((response) => {
     res.json(response);
   });
 };
