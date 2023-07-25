@@ -21,7 +21,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://roberas-api.onrender.com"],
+    origin: ["http://localhost:5173", "https://robera-abera.onrende.com"],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
   })
